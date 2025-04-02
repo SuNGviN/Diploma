@@ -1,0 +1,181 @@
+$date
+	Wed Apr 02 16:57:25 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fifo_12bit_tb $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 12 # data_out [11:0] $end
+$var reg 1 $ clk $end
+$var reg 12 % data_in [11:0] $end
+$var reg 1 & rd_en $end
+$var reg 1 ' rst $end
+$var reg 1 ( wr_en $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 12 ) data_in [11:0] $end
+$var wire 1 & rd_en $end
+$var wire 1 ' rst $end
+$var wire 1 ( wr_en $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var parameter 32 * ADDR_WIDTH $end
+$var parameter 32 + DEPTH $end
+$var reg 5 , count [4:0] $end
+$var reg 12 - data_out [11:0] $end
+$var reg 4 . rd_ptr [3:0] $end
+$var reg 4 / wr_ptr [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 +
+b100 *
+$end
+#0
+$dumpvars
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 )
+0(
+1'
+0&
+b0 %
+0$
+b0 #
+1"
+0!
+$end
+#10000
+1$
+#20000
+0$
+#25000
+b1100100 %
+b1100100 )
+1(
+0'
+#30000
+0"
+b1 ,
+b1 /
+1$
+#40000
+0$
+#45000
+b11001000 %
+b11001000 )
+#50000
+b10 ,
+b10 /
+1$
+#60000
+0$
+#65000
+b100101100 %
+b100101100 )
+#70000
+b11 ,
+b11 /
+1$
+#80000
+0$
+#85000
+b110010000 %
+b110010000 )
+#90000
+b100 ,
+b100 /
+1$
+#100000
+0$
+#105000
+0(
+#110000
+1$
+#120000
+0$
+#130000
+1$
+#140000
+0$
+#145000
+1&
+#150000
+b11 ,
+b1 .
+b1100100 #
+b1100100 -
+1$
+#160000
+0$
+#165000
+0&
+#170000
+1$
+#180000
+0$
+#185000
+1&
+#190000
+b10 ,
+b10 .
+b11001000 #
+b11001000 -
+1$
+#200000
+0$
+#205000
+0&
+#210000
+1$
+#220000
+0$
+#225000
+1&
+#230000
+b1 ,
+b11 .
+b100101100 #
+b100101100 -
+1$
+#240000
+0$
+#245000
+0&
+#250000
+1$
+#260000
+0$
+#265000
+1&
+#270000
+1"
+b0 ,
+b100 .
+b110010000 #
+b110010000 -
+1$
+#280000
+0$
+#285000
+0&
+#290000
+1$
+#300000
+0$
+#310000
+1$
+#320000
+0$
+#330000
+1$
+#335000
