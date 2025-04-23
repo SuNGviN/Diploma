@@ -1,5 +1,5 @@
 $date
-	Tue Apr 08 12:26:07 2025
+	Wed Apr 23 16:11:08 2025
 $end
 $version
 	Icarus Verilog
@@ -7,18 +7,18 @@ $end
 $timescale
 	1ps
 $end
-$scope module fifo_12bit_tb $end
+$scope module fifo_16bit_tb $end
 $var wire 1 ! full $end
 $var wire 1 " empty $end
-$var wire 12 # data_out [11:0] $end
+$var wire 16 # data_out [15:0] $end
 $var reg 1 $ clk $end
-$var reg 12 % data_in [11:0] $end
+$var reg 16 % data_in [15:0] $end
 $var reg 1 & rd_en $end
 $var reg 1 ' rst $end
 $var reg 1 ( wr_en $end
 $scope module uut $end
 $var wire 1 $ clk $end
-$var wire 12 ) data_in [11:0] $end
+$var wire 16 ) data_in [15:0] $end
 $var wire 1 & rd_en $end
 $var wire 1 ' rst $end
 $var wire 1 ( wr_en $end
@@ -27,7 +27,7 @@ $var wire 1 " empty $end
 $var parameter 32 * ADDR_WIDTH $end
 $var parameter 32 + DEPTH $end
 $var reg 5 , count [4:0] $end
-$var reg 12 - data_out [11:0] $end
+$var reg 16 - data_out [15:0] $end
 $var reg 4 . rd_ptr [3:0] $end
 $var reg 4 / wr_ptr [3:0] $end
 $upscope $end
