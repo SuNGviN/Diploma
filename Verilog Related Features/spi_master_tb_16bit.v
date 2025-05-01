@@ -41,7 +41,7 @@ module spi_master_tb_16bit;
     rst_n = 0;
     start = 0;
     miso = 0;
-    input_data = 16'b1010101010101010;
+    input_data = 16'b1111000010100101;
 
     // Сброс
     #50;

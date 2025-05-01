@@ -4,7 +4,7 @@ module spi_master_16bit (
     input wire start,           // Новый управляющий сигнал: запуск передачи
     output reg sclk,            // Тактовый сигнал SPI
     output reg cs_n,            // Chip Select (активный низкий)
-    output reg mosi,            // Для расширения (не используется здесь)
+    output reg mosi,            
     input wire miso,            // Данные от АЦП
     output reg [15:0] adc_data  // Принятые 16 бит данных
 );
