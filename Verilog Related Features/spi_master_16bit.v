@@ -6,7 +6,7 @@ module spi_master_16bit (
     output reg cs_n,            // Chip Select (активный низкий)
     output reg mosi,            
     input wire miso,            // Данные от АЦП
-    output reg [15:0] adc_data  // Принятые 16 бит данных
+    output reg [15:0] adc_data  // 16 бит данных
 );
 
 reg [3:0] bit_cnt;              // Счётчик принятых бит

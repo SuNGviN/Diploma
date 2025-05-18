@@ -34,8 +34,7 @@ module top_module (
     .rd_en(rd_en),
     .data_in(result_data),
     .data_out(data_out),
-    .full(),       // не используем пока
-    .empty(fifo_empty)
+    .full(),       // не используется
   );
 
   // --- Автоматическое считывание из FIFO ---
